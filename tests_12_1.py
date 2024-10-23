@@ -22,3 +22,6 @@ class RunnerTest(unittest.TestCase):
             run1.run()
             run2.walk()
         self.assertNotEqual(run1.distance, run2.distance)
+
+# res = Ran 3 tests in 0.004s
+# OK
